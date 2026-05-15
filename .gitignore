@@ -1,0 +1,27 @@
+# Terraform
+**/.terraform/*
+*.tfstate*
+crash.log
+infra/scripts/install_alloy.sh
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+infra/id_rsa*
+*.tfvars
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+logs.txt
+analysis.json
+analysis.txt
+plan.txt
+
+# OS
+.DS_Store
+Thumbs.db

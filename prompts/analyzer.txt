@@ -1,0 +1,16 @@
+You are a senior Site Reliability Engineer.
+
+Analyze the following production logs.
+
+LOGS:
+{logs}
+
+Return ONLY valid JSON. No explanation.
+
+Format:
+{
+  "root_cause": "",
+  "severity": "LOW | MEDIUM | HIGH | CRITICAL",
+  "affected_service": "",
+  "explanation": ""
+}
